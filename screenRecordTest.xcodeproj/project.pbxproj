@@ -11,6 +11,9 @@
 		445209BC2918AD7D008285F0 /* screenRecordTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 445209B12918AD7D008285F0 /* screenRecordTest.framework */; };
 		445209C12918AD7D008285F0 /* screenRecordTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 445209C02918AD7D008285F0 /* screenRecordTestTests.m */; };
 		445209C22918AD7D008285F0 /* screenRecordTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 445209B42918AD7D008285F0 /* screenRecordTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		445209DD2918B532008285F0 /* recordTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 445209DA2918B532008285F0 /* recordTest.m */; };
+		445209DE2918B532008285F0 /* recordTest2.h in Headers */ = {isa = PBXBuildFile; fileRef = 445209DB2918B532008285F0 /* recordTest2.h */; };
+		445209E02918B54A008285F0 /* recordTest2.mm in Sources */ = {isa = PBXBuildFile; fileRef = 445209DF2918B54A008285F0 /* recordTest2.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +32,9 @@
 		445209B52918AD7D008285F0 /* screenRecordTest.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = screenRecordTest.docc; sourceTree = "<group>"; };
 		445209BB2918AD7D008285F0 /* screenRecordTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = screenRecordTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		445209C02918AD7D008285F0 /* screenRecordTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = screenRecordTestTests.m; sourceTree = "<group>"; };
+		445209DA2918B532008285F0 /* recordTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = recordTest.m; sourceTree = "<group>"; };
+		445209DB2918B532008285F0 /* recordTest2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = recordTest2.h; sourceTree = "<group>"; };
+		445209DF2918B54A008285F0 /* recordTest2.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = recordTest2.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,7 @@
 		445209A72918AD7D008285F0 = {
 			isa = PBXGroup;
 			children = (
+				445209D82918B532008285F0 /* record */,
 				445209B32918AD7D008285F0 /* screenRecordTest */,
 				445209BF2918AD7D008285F0 /* screenRecordTestTests */,
 				445209B22918AD7D008285F0 /* Products */,
@@ -85,6 +92,16 @@
 			path = screenRecordTestTests;
 			sourceTree = "<group>";
 		};
+		445209D82918B532008285F0 /* record */ = {
+			isa = PBXGroup;
+			children = (
+				445209DF2918B54A008285F0 /* recordTest2.mm */,
+				445209DA2918B532008285F0 /* recordTest.m */,
+				445209DB2918B532008285F0 /* recordTest2.h */,
+			);
+			path = record;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -92,6 +109,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				445209DE2918B532008285F0 /* recordTest2.h in Headers */,
 				445209C22918AD7D008285F0 /* screenRecordTest.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -194,6 +212,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				445209B62918AD7D008285F0 /* screenRecordTest.docc in Sources */,
+				445209E02918B54A008285F0 /* recordTest2.mm in Sources */,
+				445209DD2918B532008285F0 /* recordTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
